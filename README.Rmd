@@ -1,0 +1,12 @@
+---
+title: "README"
+author: "Timothy Hass"
+date: "09/21/2014"
+
+---
+
+I started by getting the data from the train and test set into similar layouts. For the measured and figured variables, I then kept only the ones which contained either mean or std in the name to keep the average and standard deviation variables.  Finally the two data sets were combined.
+
+Next, I changed the labels for the activities listed in the data from their code numbers to the descriptive version listed in activity_labels.txt.
+
+Finally, I found the average for each mean and standard deviation variable for each activity of each of the thirty test subjects.  The data for this was output to variable_means.txt.  It can be loaded using read.table.

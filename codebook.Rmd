@@ -1,0 +1,12 @@
+---
+title: "Code Book"
+author: "Timothy Hass"
+date: "09/20/2014"
+output: html_document
+---
+
+The variables for this data are based on the data from the UCI Human Activity Recognition Using Smartphones Data Set.
+
+The test and train data sets were merged.  Only the mean and standard deviation variables were kept.  The mean for each activity for each test subject of all the remaining mean and standard deviation variables.
+
+The Subject variable represents each of the 30 people who part in the study.  Labels is the label which the researchers designated to each activity that the subjects performed during the course of the study.  The remaining variables are averages for each label of mean and standard deviations of measurements made in the study.
